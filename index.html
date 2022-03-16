@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: #D6FFEE;
+    }
+.flex-container {
+  display: flex;
+  height: 60px;
+}
+
+.blank-container{
+    width: 100%;
+}
+.logo-container{
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+}
+.login-container{
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.adv-container {
+  display: flex;
+  height: 600px;
+  background-color: rgb(89, 184, 201);
+}
+.footer-container {
+  display: flex;
+  height: 200px;
+  background-color: rgb(3, 5, 0);
+}
+.tnc-container {
+  display: flex;
+  height: 50px;
+  background-color: rgb(60, 61, 59);
+}
+</style>
+</head>
+<body>
+    <div id="header" class="flex-container">
+        <div class="logo-container">My Money Bank</div>
+        <div class="blank-container"></div>
+        <div class="login-container">Login</div>
+    </div>    
+    <div id="menu">
+        <hr>
+        <table style="width:100%">
+            <tr align="center">
+                <td>Accounts</td>
+                <td>Cards</td>
+                <td>Loans</td>
+                <td>Invest</td>
+                <td>Insure</td>
+                <td>Pay</td>
+                <td>Crypto</td>
+            </tr>
+        </table>
+    </div>
+    <div id="scrollingAdv" class="adv-container">
+    </div>
+    <div id="footer" class="footer-container">
+    </div>
+    <div id="tnc" class="tnc-container">
+    </div>
+</body>
+</html>
